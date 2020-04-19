@@ -1,0 +1,53 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 30px;
+  color: white;
+}
+
+hr{
+  border-color: white;
+  border-width: 2px;
+  max-width: 3cm;
+}
+
+.buffer {
+  height: 177px;
+}
+
+span{   
+  font-size: 40px;
+}
+
+.btn{
+  font-weight: 900;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.botao{
+  padding: 1rem 2rem;
+}
+
+.btn-primary{
+  background-color: orangered;
+  border: 2px solid white;
+}
+
+.btn-primary:hover{
+  color: orangered;
+  background-color: white;
+  border: 1px solid orangered;
+  transform: scale(1.03);
+  transition: all 0.3s;
+}

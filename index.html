@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container-fluid d-flex align-items-center col-5 h-100"> <!-- contém itens, no caso, todos até "section"; "d-flex align-items-center" é uma flexbox que alinha os itens, no caso, alinha todos no centro  do container; "col-5" eu usei p/ alinhar o texto no meio da página;"h-100" é o centro do height (altura) -->
+      <div class="row justify-content-center"> <!-- "row" contem todos os itens que estão dentro de container (até "section"); usei "justify-content-center" p/ colocar o botão no centro do "container"  -->
+         <header class="text-center col-12"> <!-- "header" é a parte de cima da página que está agora dividida (pelo header mesmo) Eu returei essa “tag” e ela continuou funcionando, pos ela é suada/serve p/ conter 1 ou mais elementos <h1> - <h6>; e p/ separar logotipo ou informações de autor, por exemplo. → --> -->
+        <h1 class="text-uppercase"><strong>O maior evento start-up do ano</strong></h1>
+        </header>
+        <div class="buffer col-12"></div> <!-- cria um espaço (tem que ser alterado pelo CSS no ".buffer {height: XX}"), uma linha inteira no caso do "col-12" no Bootstrap -->
+        <section class="text-center col-12"> <!-- "section" -> serve também p/ assegurar que "Atributos de Eventos" (atributos que são ativados, por meio do JS, para quando o objeto em "section" sofre ação (clique, por exemplo)), e "Atributos Globais" (atributos que servem para dar sentido ao contexto (class, id, title, etc), e que funcionam em qualquer elemento do HTML);"text-center" é uma classe ativa que centraliza toda a tag;;; o Bootstrap está configurado em divisões de até 12 colunas/página (col-12 = quer dizer isso ocupará o espaço de 12 colunas (que é o limite, então estará centralizado junto c/ "class="text-center"")) -->
+          <hr>
+          <a href="https://mailchi.mp/bf6cb81da233/startupteste">
+          <button class="btn btn-primary botao">Descubra mais</button>
+          </a>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
